@@ -1,0 +1,47 @@
+/* src/styles/styles.css */
+
+.grid {
+  display: grid ;
+  justify-content: center;
+  gap: 1px;
+}
+
+/* .node {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  transition: background-color 0.3s ease;
+} */
+.node{
+  width:25px;
+  height:25px;
+  outline:1px solid grey;
+  display:inline-block;
+  transition: background-color 0.8s ease;
+}
+.node-start {
+  background-color: #3f51b5; /* Indigo */
+}
+
+.node-finish {
+  background-color: #f50057; /* Pink */
+}
+
+.node-wall {
+  background-color: #333; /* Dark gray */
+}
+
+.node-visited {
+  background-color: #7aa5d4; /* Light blue */
+}
+
+.node-shortest-path {
+  background-color: #ffeb3b; /* Yellow */
+}
+.Hell{
+  background-color: #ffeb3b; /* Yellow */
+  width: 10%;
+  align-items: center;
+  margin : 10px auto;
+  
+}
